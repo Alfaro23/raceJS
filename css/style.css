@@ -1,0 +1,97 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.car, .enemy{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    background: transparent url("../image/player.png") center / cover no-repeat;
+    /* left: 125px;
+    bottom: 10px; */
+}
+.gameArea{
+    width: 300px;
+    /* height: 100%; */
+    height: 700px;
+    margin: auto;
+    position: relative;
+    background-color: #222;
+    overflow: hidden;
+}
+.line{
+    position: absolute;
+    width: 10px;
+    height: 50px;
+    background:white;
+    left: 145px;
+}
+.score{
+    background: black;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: skyblue;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    display: none;
+}
+.start_info{
+    font-family: sans-serif;
+    font-weight: 500;
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    color: skyblue;
+    justify-content: space-around;
+    font-size: 1.5rem;
+}
+.start_info div{
+    width: 50%;
+}
+.start{
+    cursor: pointer;
+}
