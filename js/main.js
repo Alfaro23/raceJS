@@ -8,7 +8,7 @@ let car = document.createElement("div");
 car.classList.add("car"); // Добавлю машине специальный класс
 
 //массив с разными изображениями машин
-let cars = ["../image/enemy.png", "../image/enemy2.png", "../image/enemy3.png", "../image/enemy4.png", "../image/enemy5.png", "../image/enemy6.png"];
+let cars = ["./image/enemy.png", "./image/enemy2.png", "./image/enemy3.png", "./image/enemy4.png", "./image/enemy5.png", "./image/enemy6.png"];
 
 //Необходимые клавишы для управления автомобилем
 let keys = {
@@ -22,7 +22,7 @@ let keys = {
 let setting = {
     start: false,
     score: 0,
-    speed: 3,
+    speed: 2,
     traffic: 2,
 }
 
